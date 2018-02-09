@@ -1,0 +1,11 @@
+commit 26859d4292d3ed6b8a5bfd5e66f0755df7cf6655
+Author: Songsterr99 <Mr.songsterr@mail.ru>
+Date:   Fri Feb 9 18:41:13 2018 +0300
+
+    status.txt is added
+
+commit 32f6c7f4602da951a370629e10a92bf02b78ff91
+Author: Songsterr99 <Mr.songsterr@mail.ru>
+Date:   Fri Feb 9 18:39:42 2018 +0300
+
+    .gitignore is added
