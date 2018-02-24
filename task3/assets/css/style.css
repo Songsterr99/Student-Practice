@@ -123,6 +123,36 @@ body {
   padding: 2px;
   float: left;
 }
+ .profileinfo {
+  padding: 0 10px 10px;
+  color: #555;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.likes{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.likes i{
+  margin-left: 4px;
+  color: red;
+  font-size: 15px;
+}
+
+.edit{
+  display: flex;
+  flex-direction: row;
+}
+.edit i{
+  color: black;
+  font-size: 15px;
+}
 
 
 .profile .col2.first {
@@ -214,38 +244,6 @@ section.album {
   width: 100%;
 }
 
-.album .postinfo {
-  text-align: center;
-  padding: 0 10px 30px;
-  color: #555;
-  font-size: 14px;
-  line-height: 25px;
-}
-.album .postinfo img {
-  border-radius: 50%;
-  width: 80px;
-  padding: 2px;
-  border: 3px solid #6AAFEA;
-  margin-top: -48px;
-  margin-bottom: 18px;
-}
-.album .col3.center .postinfo img {
-  border: 3px solid #FB4C22;
-
-}
-.album .postinfo p {
-  text-align: justify;
-}
-.album .postinfo span {
-  margin-top: 15px;
-  display: block;
-  text-align: left;
-  color: #6AAFEA;
-  cursor: pointer;
-}
-.album .postinfo span i {
-  margin-left: 10px;
-}
 
 .footer{
   background-color: white;
