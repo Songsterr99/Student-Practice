@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="Dom.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="innerwrap">
+
+    <section class="header">
+        <div class="header-left">
+          <div class="logo">
+            <h1>PhotoLife</h1>
+          </div>
+          <form id="search-form">
+            <div class="search">
+              <span class="fa fa-search"></span>
+              <input type="text" name="search" class="round" placeholder="Search" />
+            </div>
+          </form>
+        </div>
+        <div id="header-right">
+          <a href=""><i class="fa fa-cloud-download"></i></a>
+          <a id="exit" href=""><i class="fa fa-sign-out"></i></a>
+        </div>
+    </section>
+
+    <section class="content clearfix">
+      <form role="search" class="search-form" action="#" method="post">
+        <div class="search-terms">
+          <h3 class="search-filters-title">Filters:</h3>
+          <div class="search-filters" id="search-filters">
+            <div class="filter-group">
+
+              <div>
+                <p>Author:</p>
+                <input type="text" placeholder="Author">
+              </div>
+
+              <div>
+                <p>Hashtags:</p>
+                <input type="text" placeholder="Hashtags">
+              </div>
+
+              <div>
+                <p>Date:</p>
+                <input type="text" placeholder="DD.MM.YY">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <section class="search-results">
+        <div class ="search-results-header">
+          <div id="search-amount">
+            <p >K results found</p>
+          </div>
+
+          <div class="search-sort">
+            <h4>sort by</h4>
+            <form action="">
+              <input list="conditions" name="conditions" value="Most Relevant" >
+              <datalist id="conditions">
+                <option value="Most Relevant">
+                <option value="Most Viewed">
+                <option value="Top Rated">
+              </datalist>
+            </form>
+
+          </div>
+        </div>
+        <div id="photos">
+          <div id="album">
+
+          </div>
+        </div>
+      </section>
+      <div class="search-results-button">
+        <div id="button-load">
+        </div>
+      </div>
+    </section>
+
+    <section class="footer ">
+      <div class="author">
+        <a>© Daniil Naumau; mr.redribon@gmail.com; 2 grade 13 group; last change: 25.02.2018</a>
+      </div>
+
+    </section>
+  </div>
+</div>
+
+</body>
+</html>

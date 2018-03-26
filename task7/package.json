@@ -1,0 +1,19 @@
+{
+  "name": "photolife",
+  "version": "1.0.0",
+  "description": "website with photos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Songsterr99/Student-Practice.git"
+  },
+  "author": "Songsterr99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Songsterr99/Student-Practice/issues"
+  },
+  "homepage": "https://github.com/Songsterr99/Student-Practice#readme"
+}
