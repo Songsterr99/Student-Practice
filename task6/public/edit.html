@@ -1,0 +1,23 @@
+<section class="edit-post">
+  <form action="" onsubmit="loadNewPhoto()" >
+    <div class="edit-photo">
+      <div id="edit-photo-load">
+        <h1>Upload your photos</h1>
+        <input type="file" id="fileElem" accept="image/*" style="display:none" onchange="handleFiles(this.files)">
+        <button id="fileSelect">image upload</button>
+        <p>You can also drag and drop</p>
+      </div>
+    </div>
+    <div class="edit-description">
+      <input class="button-upload-photo" type="submit" value="Post photo">
+      <label for="tags-upload">
+        Add tags
+        <textarea class="input-upload-photos" name="tags-upload" id="tags-upload"></textarea>
+      </label>
+      <label for="description-upload">
+        Add description
+        <textarea class="input-upload-photos" name="description-upload" id="description-upload"></textarea>
+      </label>
+    </div>
+  </form>
+</section>
