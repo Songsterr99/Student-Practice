@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Songsterr99/Student-Practice/issues"
   },
-  "homepage": "https://github.com/Songsterr99/Student-Practice#readme"
+  "homepage": "https://github.com/Songsterr99/Student-Practice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

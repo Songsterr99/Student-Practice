@@ -1,6 +1,11 @@
 * {
   margin: 0px;
   padding: 0px;
+  -webkit-transition: All 0.8s ease;
+  -moz-transition: All 0.8s ease;
+  -o-transition: All 0.8s ease;
+  -ms-transition: All 0.8s ease;
+  transition: All 0.8s ease;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing:border-box;
@@ -30,9 +35,15 @@
 
 
 .logo{
+
   margin-top: 5px;
   margin-right: 10px;
   font-size: 10px;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
 }
 .round {
   width: 150px;
@@ -69,6 +80,7 @@
 
 #header-right a{
   text-decoration: none;
+  cursor: pointer;
 }
 
 #header-right i{
@@ -113,7 +125,6 @@ body {
 
 
 .footer{
-  background-color: #dbdbdb;
   min-height: 40px;
 
   padding-top: 10px;
@@ -180,7 +191,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
   margin-bottom: 4px;
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
 }
 
@@ -251,6 +262,10 @@ body {
   height: 65%;
   display: block;
   text-align: center;
+}
+
+.post-edit{
+  cursor: pointer;
 }
 
 .result-post-description{
@@ -331,11 +346,12 @@ body {
 }
 
 .post-likes i:hover{
-  color: #ff0065;
+  font-size: 14px;
 }
 
 .post-likes p{
   font-size: 10px;
+  cursor: pointer;
   font-weight: bold;
   margin-right: 3px;
   margin-left: 3px;
@@ -367,6 +383,7 @@ body {
   .result {
     float: left;
     width: 47%;
+    padding-top: 5px;
     height: 190px;
     margin-right: 6%;
     margin-bottom: 6%;
@@ -393,7 +410,7 @@ body {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .search-form{
     width: 0;
     height: 0;
@@ -418,6 +435,7 @@ body {
   margin: 0 auto;
   padding: 32px 0 15px;
   width: 300px;
+  min-height: calc(100vh - 120px);
 }
 
 .header-name {
@@ -461,7 +479,7 @@ body {
 
 }
 
-.login-button {
+#login-button {
   background: #2DB84C;
   border: 1px solid;
   border-radius: 2px;
@@ -571,17 +589,17 @@ textarea {
   resize: none;
 }
 
-.edit-photo-load{
+#edit-photo-load{
   height: calc(100vh - 180px);
   border-style: dotted;
 }
 
-.edit-photo-load h1{
+#edit-photo-load h1{
   margin-top: 15%;
   font-size: 40px;
 }
 
-.edit-photo-load button{
+#edit-photo-load button{
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: forestgreen;
@@ -620,14 +638,18 @@ textarea {
   cursor: pointer;
 
 }
+#edit-photo-load img{
+  height: 100%;
+  max-width: 100%;
+}
 
 @media (max-width: 1000px) {
-  .edit-photo-load h1{
-    margin-top: 140px;
+  #edit-photo-load h1{
+    margin-top: 100px;
     font-size: 25px;
   }
 
-  .edit-photo-load button{
+  #edit-photo-load button{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: forestgreen;
@@ -640,7 +662,7 @@ textarea {
     cursor: pointer;
   }
 
-  .edit-photo-load p{
+  #edit-photo-load p{
     margin-top: 10px;
     font-size: 10px;
   }
