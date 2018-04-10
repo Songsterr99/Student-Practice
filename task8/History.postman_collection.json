@@ -1,0 +1,170 @@
+{
+	"id": "740f2aab-b23f-44a9-ae44-8fffa9573dad",
+	"name": "History",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"b64e4805-36cc-4687-92f0-3a435c60b06c",
+		"d89cf95f-1f86-4370-8907-c09eb3460830",
+		"4dd60543-fb5e-43e9-85e1-9cdd5a32c599",
+		"851248dd-7117-4ea7-a74f-95bc04859a99",
+		"8a6959dd-1678-41ba-9c0a-a912d963082d",
+		"fef1b79b-4d11-4de7-8468-7ac2dbc30f92"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "4dd60543-fb5e-43e9-85e1-9cdd5a32c599",
+			"name": "http://localhost:5050/add",
+			"url": "http://localhost:5050/add",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"id\":\"2\",\n\t\"description\":\"qw-то. \",\n\t\"author\":\"Danik\",\n\t\"photoLink\":\"https://pp.userapi.com/c836128/v836128564/781db/oUTc-lJYU8Q.jpg\",\n\t\"hashTags\":[\"#wqe\",\"#travel\",\"#happy\"],\n\t\"likes\":[\"Veronika\",\"Dantes\",\"Kuzmikas\",\"Valaikas\"]\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "851248dd-7117-4ea7-a74f-95bc04859a99",
+			"name": "http://localhost:5050/add",
+			"url": "http://localhost:5050/add",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"id\":\"2\",\n\t\"description\":\"qw-то. \",\n\t\"author\":\"Danik\",\n\t\"photoLink\":\"https://pp.userapi.com/c836128/v836128564/781db/oUTc-lJYU8Q.jpg\",\n\t\"hashTags\":[\"#wqe\",\"#travel\",\"#happy\"],\n\t\"likes\":[\"Veronika\",\"Dantes\",\"Kuzmikas\",\"Valaikas\"]\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8a6959dd-1678-41ba-9c0a-a912d963082d",
+			"name": "http://localhost:5050/getPost/2",
+			"url": "http://localhost:5050/getPost/2",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b64e4805-36cc-4687-92f0-3a435c60b06c",
+			"name": "http://localhost:5050/editPost/2",
+			"url": "http://localhost:5050/editPost/2",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"id\":\"2\",\n\t\"description\":\"hiiiii \",\n\t\"author\":\"Dantela\",\n\t\"photoLink\":\"https://pp.userapi.com/c836128/v836128564/781db/oUTc-lJYU8Q.jpg\",\n\t\"hashTags\":[\"#wqe\",\"#travel\",\"#happy\"],\n\t\"likes\":[\"Veronika\",\"Dantes\",\"Kuzmikas\",\"Valaikas\"]\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d89cf95f-1f86-4370-8907-c09eb3460830",
+			"name": "http://localhost:5050/delPost/6",
+			"url": "http://localhost:5050/delPost/6",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"id\":\"6\",\n\t\"description\":\"qw-то. \",\n\t\"author\":\"Dima\",\n\t\"photoLink\":\"https://pp.userapi.com/c836128/v836128564/781db/oUTc-lJYU8Q.jpg\",\n\t\"hashTags\":[\"#wqe\",\"#travel\",\"#happy\"],\n\t\"likes\":[\"Veronika\",\"Dantes\",\"Kuzmikas\",\"Valaikas\"]\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fef1b79b-4d11-4de7-8468-7ac2dbc30f92",
+			"name": "http://localhost:5050/getPost/4",
+			"url": "http://localhost:5050/getPost/4",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
