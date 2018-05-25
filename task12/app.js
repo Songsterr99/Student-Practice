@@ -115,6 +115,9 @@ app.post('/getPosts/:skip&:top', (req, res) =>{
 });
 
 app.delete('/delPost/:id', (req, res) => {
+  if(!req.isAuthenticated()){
+    res.status(404).end();
+  }
   Post.findById(req.params.id, (err, post) => {
     if(err) {
       res.status(404).end();
@@ -135,7 +138,10 @@ app.delete('/delPost/:id', (req, res) => {
 
 
 
-app.put('/editPost/:id', (req, res) => {
+app.put('/editPost/:id', (req, res) => {4
+  if(!req.isAuthenticated()){
+    res.status(404).end();
+  }
   Post.findById(req.params.id, (err, post) => {
     console.log(post);
 
@@ -159,6 +165,9 @@ app.put('/editPost/:id', (req, res) => {
 });
 
 app.post('/likePost/:user&:id', (req, res) =>{
+  if(!req.isAuthenticated()){
+    res.status(404).end();
+  }
   Post.findById(req.params.id, (err, post) => {
     if(err) {
       res.status(404).end();
@@ -193,6 +202,11 @@ app.use((req, res) => {
 });
 
 app.listen(5050, () => console.log('Server started listening on 5050'));
+
+
+
+
+
 
 
 
